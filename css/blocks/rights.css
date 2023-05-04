@@ -1,0 +1,22 @@
+.rights {
+  margin-top: rem(35px);
+  margin-bottom: rem(20px);
+  text-align: right;
+}
+
+.rights__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: rem(12px);
+  line-height: rem(15px);
+}
+
+.rights__link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: rem(12px);
+  line-height: rem(15px);
+  text-decoration: underline;
+}

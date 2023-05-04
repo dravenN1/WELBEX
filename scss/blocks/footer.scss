@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+.footer__header {
+    font-weight: 700;
+    font-size: rem(14px);
+    line-height: rem(17px);
+    color: #656566;
+    margin-bottom: rem(20px);
+    text-decoration: none;
+}

@@ -1,0 +1,91 @@
+.service {
+  text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.service__title {
+  font-weight: 500;
+  font-size: rem(18px);
+  line-height: rem(22px);
+  width: rem(291px);
+  margin-bottom: rem(40px);
+}
+
+.service__title-gradient-red {
+  background: rgb(252, 176, 69);
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, rgb(252, 176, 69)), to(rgb(253, 29, 29)));
+  background: linear-gradient(90deg, rgb(252, 176, 69) 50%, rgb(253, 29, 29) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-transform: uppercase;
+}
+
+.service__title-gradient-yellow {
+  background: rgb(252, 176, 69);
+  background: -webkit-gradient(linear, left top, right top, color-stop(67%, rgb(252, 176, 69)), to(rgb(253, 134, 29)));
+  background: linear-gradient(90deg, rgb(252, 176, 69) 67%, rgb(253, 134, 29) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-transform: uppercase;
+}
+
+.service__list {
+  -webkit-columns: 2;
+     -moz-columns: 2;
+          columns: 2;
+  margin-bottom: rem(80px);
+}
+
+.service__item {
+  width: rem(164px);
+}
+.service__item-header {
+  font-weight: 500;
+  font-size: rem(18px);
+  line-height: rem(22px);
+  text-transform: uppercase;
+}
+.service__item-text {
+  font-family: "Montserrat";
+  font-weight: 400;
+  line-height: rem(20px);
+}
+.service__item:nth-child(odd) {
+  margin-bottom: rem(30px);
+}
+
+.service__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 0px;
+  width: rem(261px);
+  height: rem(61px);
+  background-color: #1976d2;
+  line-height: rem(19px);
+  opacity: 1;
+  margin-bottom: rem(125px);
+}
+.service__btn:hover {
+  -webkit-transition: opacity 0.5 0.7s;
+  transition: opacity 0.5 0.7s;
+}

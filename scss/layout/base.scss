@@ -1,0 +1,62 @@
+//fonts
+$fontInter: 'Inter', sans-serif;
+$fontMontserrat: 'Montserrat', sans-serif;
+
+
+$containerWidth: 1400px;
+$baseFontsize: 16px;
+
+
+//breakpoints
+
+$phones: 480px;
+
+
+//colors
+
+$colorWhite: #E4E5EA;
+
+
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: rem(16px);
+}
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: $fontInter;
+    font-size: $baseFontsize;
+    margin: 0;
+    color: $colorWhite;
+    text-decoration: none;
+    background: #0E1014;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: $containerWidth;
+    margin: 0 auto;
+    position: relative;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    font-style: normal;
+    color: $colorWhite;
+}
